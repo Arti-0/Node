@@ -28,3 +28,7 @@ dist-ssr
 # git commit -m "first commit"
 # git remote add origin https://github.com/Arti-0/Node.git
 # git push -u origin main
+
+# docker build -t appknex -f dockerfile .
+# docker run -d --name nodewsfthree -v $(pwd):/usr/src/app -p 80:80 -it --entrypoint=/bin/bash appknex
+# docker exec -it a36 /bin/bash
