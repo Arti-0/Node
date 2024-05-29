@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-const userRoutes = require('./userRoutes');
+const userRoutes = require('./Routes/userRoutes');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
